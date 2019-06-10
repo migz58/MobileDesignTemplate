@@ -1,0 +1,52 @@
+page-default-cards{
+    .background{
+        background: #63FC65; /* For browsers that do not support gradients */
+        background: linear-gradient(#63FC65, #0C890E); /* Standard syntax (must be last) */
+    }
+    ion-card.cards-list-demo ion-card-header {
+        color: map-get($colors, primary);
+    }
+    .box-shw{
+        box-shadow: rgb(39, 104, 115) 0px 10px 14px -7px;
+    }
+    .card-heading{
+        margin: auto;
+        text-shadow: 2px 2px 8px rgb(51, 51, 51);
+        color: white;
+    }
+    .section-cards{
+        border-bottom: 3px solid white;
+        margin-bottom: 5%;
+    }
+    .img-card {
+        position: relative;
+        text-align: center;
+    }
+    .card-title {
+        position: absolute;
+        top: 36%;
+        font-size: 2.0em;
+        width: 100%;
+        font-weight: bold;
+        color: #fff;
+        text-shadow: 2px 2px 8px rgb(51, 51, 51);
+    }
+    .card-subtitle {
+        font-size: 1.0em;
+        position: absolute;
+        top: 52%;
+        width: 100%;
+        color: #fff;
+        text-shadow: 2px 2px 8px rgb(51, 51, 51);
+    }
+    ion-card.adv-map p {
+        font-size: 0.7em !important;
+    }
+    button[fab].fab-map {
+        top: calc(100% - 35px);
+        z-index: 50;
+    }
+    .item-bold {
+        font-weight: bold;
+    }
+}

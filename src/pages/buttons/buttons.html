@@ -1,0 +1,26 @@
+<ion-header>
+    <ion-navbar color="secondary" class="box-shw">
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Buttons</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding class="background">
+    <div class="row">
+        <img class="dt-logo" src="../../../assets/imgs/button.png" />
+    </div>
+
+    <div class="row tabs-btn">
+        <button class="custom-btn-3" (click)="goToCustomBtns()">Custom Buttons</button>
+    </div>
+
+    <div class="row tabs-btn">
+        <button class="custom-btn-3" (click)="goToIonicBtns()">Ionic Buttons</button>
+    </div>
+
+    <div class="row tabs-btn">
+        <button class="custom-btn-3" (click)="goToComponentBtns()">Component Buttons</button>
+    </div>
+</ion-content>

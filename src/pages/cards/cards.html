@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-navbar color="secondary" class="box-shw">
+        <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>
+            <ion-icon name="card"></ion-icon>
+            Cards
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding class="background">
+    <div class="row">
+        <img class="dt-logo" src="../../../assets/imgs/cards.png" />
+    </div>
+    
+    <div class="row">
+        <button class="custom-btn-3" (click)="goToBasicCards()">Default Cards</button>
+    </div>
+
+    <div class="row">
+        <button class="custom-btn-3" (click)="goToCustomCards()">Custom Cards</button>
+    </div>
+</ion-content>

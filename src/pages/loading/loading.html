@@ -1,0 +1,15 @@
+<ion-header>
+    <ion-navbar color="secondary" class="box-shw">
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>
+            <ion-icon name="sync"></ion-icon>
+            Loading
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding class="background">
+    <button ion-button block class="box-shw" (click)="presentLoading()">Show Loading</button>
+</ion-content>

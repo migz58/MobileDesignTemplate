@@ -1,0 +1,49 @@
+<ion-header>
+    <ion-navbar color="secondary" class="box-shw">
+        <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Alerts</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding class="background">
+    <div class="row">
+        <h2 class="custom-alert-heading">Basic Alert</h2>
+    </div>
+    <div class="row">
+        <button class="box-shw" ion-button block color="dark" (click)="doBasicAlert()">Request Friend</button>
+    </div>
+    <hr class="section-alerts">
+
+    <div class="row">
+        <h2 class="custom-alert-heading">Prompt Alert</h2>
+    </div>
+    <div class="row">
+        <button class="box-shw" ion-button color="third" block (click)="doPrompt()">Do Your Part!</button>
+    </div>
+    <hr class="section-alerts">
+
+    <div class="row">
+        <h2 class="custom-alert-heading">Confirmation Alert</h2>
+    </div>
+    <div class="row">
+        <button class="box-shw" ion-button color="primary" block (click)="doConfirm()">Confirm Alert</button>
+    </div>
+    <hr class="section-alerts">
+
+    <div class="row">
+        <h2 class="custom-alert-heading">Radio Alert</h2>
+    </div>
+    <div class="row">
+        <button class="box-shw" ion-button color="danger" block (click)="doRadio()">Pick a Colour</button>
+    </div>
+    <hr class="section-alerts">
+
+    <div class="row">
+        <h2 class="custom-alert-heading">Checkbox Alert</h2>
+    </div>
+    <div class="row">
+        <button class="box-shw" ion-button color="light" block (click)="doCheckbox()">Checkbox Alert</button>
+    </div>
+</ion-content>

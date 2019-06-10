@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-navbar color="secondary" class="box-shw">
+        <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>
+            <ion-icon name="filing"></ion-icon>
+            Tabs
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding class="background">
+    <div class="row">
+        <img class="dt-logo" src="../../../assets/imgs/tabs.png" />
+    </div>
+
+    <div class="row tabs-btn">
+        <button class="custom-btn-3" (click)="goToTextTab()">Text Tabs</button>
+    </div>
+
+    <div class="row tabs-btn">
+        <button class="custom-btn-3" >Icon Tabs</button>
+    </div>
+
+    <div class="row tabs-btn">
+        <button class="custom-btn-3" >Text and Icon Tabs</button>
+    </div>
+
+    <div class="row tabs-btn">
+        <button class="custom-btn-3" >Badge Tabs</button>
+    </div>
+</ion-content>

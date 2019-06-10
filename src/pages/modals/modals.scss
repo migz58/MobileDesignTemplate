@@ -1,0 +1,9 @@
+page-modals{
+    .background{
+        background: #63FC65; /* For browsers that do not support gradients */
+        background: linear-gradient(#63FC65, #0C890E); /* Standard syntax (must be last) */
+    }
+    .box-shw{
+        box-shadow: rgb(39, 104, 115) 0px 10px 14px -7px;
+    }
+}

@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar color="secondary" class="box-shw">
+        <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>
+            <ion-icon name="filing"></ion-icon>
+            Text Tabs
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="background">
+    <ion-tabs class="tabs-basic">
+        <ion-tab tabTitle="Music" [root]="rootPage"></ion-tab>
+        <ion-tab tabTitle="Movies" [root]="rootPage"></ion-tab>
+        <ion-tab tabTitle="Games" [root]="rootPage"></ion-tab>
+    </ion-tabs>
+</ion-content>

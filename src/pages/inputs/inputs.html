@@ -1,0 +1,73 @@
+<ion-header>
+    <ion-navbar color="secondary" class="box-shw">
+        <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>
+            <ion-icon name="folder-open"></ion-icon>
+            Inputs
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+    
+<ion-content padding class="background">
+    <div class="row">
+        <h2 class="custom-input-heading">Fixed Inline:</h2>
+    </div>
+    <ion-list>
+        <ion-item>
+            <ion-label fixed>Username</ion-label>
+            <ion-input type="text"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label fixed>Password</ion-label>
+            <ion-input type="password"></ion-input>
+        </ion-item>
+    </ion-list>
+    <div padding>
+        <button ion-button color="primary" block class="box-shw">Sign In</button>
+    </div>
+
+    <!--===================================================================-->
+    <hr class="section-inputs">
+    <div class="row">
+        <h2 class="custom-input-heading">Floating:</h2>
+    </div>
+    <ion-list>
+        <ion-item>
+            <ion-label floating>Username</ion-label>
+            <ion-input type="text" value=""></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label floating>Password</ion-label>
+            <ion-input type="password" value=""></ion-input>
+        </ion-item>
+    </ion-list>
+
+    <div padding>
+        <button ion-button color="primary" block class="box-shw">Sign In</button>
+    </div>
+
+    <!--===================================================================-->
+    <hr class="section-inputs">
+    <div class="row">
+        <h2 class="custom-input-heading">Inline:</h2>
+    </div>
+    <ion-list>
+        <ion-item>
+            <ion-label>Username</ion-label>
+            <ion-input type="text" value=""></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Password</ion-label>
+            <ion-input type="password" value=""></ion-input>
+        </ion-item>
+    </ion-list>
+
+    <div padding>
+        <button ion-button color="primary" block class="box-shw">Sign In</button>
+    </div>
+</ion-content>
